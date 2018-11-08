@@ -1,5 +1,4 @@
 const keys = require('./assets/keys');
-console.log(keys.googleMaps)
 const googleMapsClient = require('@google/maps').createClient({
     key: keys.googleMaps,
     Promise: Promise
